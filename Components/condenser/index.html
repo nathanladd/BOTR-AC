@@ -95,7 +95,7 @@
       <div class="page-title"><span>Condenser</span></div>
       <div class="page-meta">
         <span>🌡️ Heat Rejection</span>
-        <span>💨 Forward-Facing</span>
+        <span>🏭 Machine-Specific Location</span>
         <span>🔧 Air-Cooled</span>
       </div>
     </div>
@@ -112,7 +112,7 @@
       <div class="card">
         <div class="card-icon">💨</div>
         <div class="card-title">Airflow Requirements</div>
-        <p>Requires unrestricted airflow across fins. Forward location makes it vulnerable to debris, dirt, and damage from operating conditions.</p>
+        <p>Requires unrestricted airflow across fins. Location varies by model series - tailgate mounting on R-Series makes it vulnerable to debris, while M-Series mounting with coolers provides different airflow characteristics.</p>
       </div>
     </div>
 
@@ -129,8 +129,10 @@
         <div class="step-content">
           <div class="step-label">Location</div>
           <div class="step-body">
-            <strong style="color: var(--text-primary)">Forward-facing, front of machine</strong><br>
-            Mounted in front of radiator or in separate cooling pack. Look for aluminum fins and refrigerant lines. Often has protective screen or grille. Access varies by model.
+            <strong style="color: var(--text-primary)">Model-specific mounting locations</strong><br>
+            <strong>M-Series:</strong> Mounted with machine coolers in engine compartment<br>
+            <strong>R-Series:</strong> Located on machine tailgate<br>
+            Look for aluminum fins and refrigerant lines. Often has protective screen or grille. Access varies significantly by model series.
           </div>
         </div>
       </div>
@@ -139,8 +141,10 @@
         <div class="step-content">
           <div class="step-label">Construction</div>
           <div class="step-body">
-            <strong style="color: var(--text-primary)">Aluminum parallel-flow tubes and fins</strong><br>
-            Multi-pass design for maximum heat transfer. Fins are closely spaced and easily damaged. May have rubber isolation mounts for vibration protection.
+            <strong style="color: var(--text-primary)">Aluminum parallel-flow or series-flow tube designs</strong><br>
+            <strong>Parallel-flow:</strong> Multiple tubes with refrigerant flowing in parallel for maximum heat transfer efficiency.<br>
+            <strong>Series-flow:</strong> Single serpentine tube path for simpler construction and easier cleaning.<br>
+            Fins are closely spaced and easily damaged. May have rubber isolation mounts for vibration protection.
           </div>
         </div>
       </div>
@@ -160,7 +164,8 @@
           <div class="step-label">Airflow Design</div>
           <div class="step-body">
             <strong style="color: var(--text-primary)">Requires unrestricted airflow</strong><br>
-            Designed for ram air effect at machine speed. May have cooling fan integration. Protective screen prevents debris damage but can restrict airflow if clogged.
+            Designed for ram air effect at machine speed. May have cooling fan integration. Protective screen prevents debris damage but can restrict airflow if clogged.<br><br>
+            <strong style="color: var(--accent)">Bobcat Specification:</strong> 20°F temperature drop across condenser is considered normal operating condition. Use this as baseline when testing condenser performance.
           </div>
         </div>
       </div>
@@ -187,7 +192,7 @@
       <div class="card">
         <div class="card-icon">💨</div>
         <div class="card-title">Airflow Test</div>
-        <p>Feel airflow across condenser surface with machine running. Reduced airflow indicates fan problems or blockage.</p>
+        <p>Feel airflow across condenser surface with machine running. Reduced airflow indicates fan problems or blockage. Measure subcooling to verify condenser performance - low subcooling indicates poor heat rejection due to airflow restriction.</p>
       </div>
     </div>
 
@@ -311,22 +316,17 @@
       <div class="card">
         <div class="card-icon">🔧</div>
         <div class="card-title">R-Series</div>
-        <p>Larger condensers due to higher cooling capacity. Often mounted in separate cooling pack with transmission cooler.</p>
+        <p>Condenser mounted on machine tailgate. <strong style="color: var(--warning)">Critical Note:</strong> Opening the tailgate removes the condenser from airflow. Pressure will increase until pressure switch cuts off compressor clutch. Always keep tailgate closed during AC operation.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔧</div>
+        <div class="card-title">M-Series</div>
+        <p>Condenser mounted with machine coolers in engine compartment. Shared cooling area affects airflow patterns and maintenance access.</p>
       </div>
       <div class="card">
         <div class="card-icon">🔧</div>
         <div class="card-title">S-Series</div>
         <p>Compact condenser design. May share mounting with radiator. Access varies by model year.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🔧</div>
-        <div class="card-title">T-Series</div>
-        <p>Similar to S-Series but with different mounting arrangements. Check service manual for specific procedures.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🔧</div>
-        <div class="card-title">Compact Models</div>
-        <p>Smaller condensers due to space constraints. More vulnerable to debris damage. Frequent cleaning required.</p>
       </div>
     </div>
 
