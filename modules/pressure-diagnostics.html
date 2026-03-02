@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reading Pressures — Bobcat AC Training</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo"><a href="../index.html" style="text-decoration: none; color: inherit;">BOTR AC: <span>Making Stuff Less Hot</span></a></div>
+  <div class="breadcrumb">Service Training <b>›</b> Reading Pressures</div>
+  <div class="header-badge">Module 5</div>
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR NAV -->
+  <nav class="sidebar">
+    <div class="sidebar-section-label">Course Modules</div>
+    <a href="refrigerant-cycle.html">
+      <span class="icon">🔄</span> Refrigerant Cycle
+      <span class="step-num">1</span>
+    </a>
+    <a href="../components/index.html">
+      <span class="icon">🔧</span> System Components
+      <span class="step-num">2</span>
+    </a>
+    <a href="safety.html">
+      <span class="icon">⚠️</span> Safety Third
+      <span class="step-num">3</span>
+    </a>
+    <a href="tools-recovery.html">
+      <span class="icon">🎛️</span> Tools & Recovery
+      <span class="step-num">4</span>
+    </a>
+    <a href="pressure-diagnostics.html" class="active">
+      <span class="icon">📊</span> Reading Pressures
+      <span class="step-num">5</span>
+    </a>
+    <a href="diagnosis-process.html">
+      <span class="icon">🔍</span> Diagnosis Process
+      <span class="step-num">6</span>
+    </a>
+    <a href="machine-exercises.html">
+      <span class="icon">🚜</span> Machine Exercises
+      <span class="step-num">7</span>
+    </a>
+    <div class="sidebar-section-label">Reference</div>
+    <a href="reference.html">
+      <span class="icon">📋</span> Specs & Codes
+      <span class="step-num">—</span>
+    </a>
+    <a href="schedule.html">
+      <span class="icon">📅</span> Class Schedule
+      <span class="step-num">—</span>
+    </a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <div class="page-header">
+      <div class="page-label">Module 5</div>
+      <div class="page-title">Reading <span>Pressures</span></div>
+      <div class="page-meta">
+        <span>⏱️ 20–25 min</span>
+        <span>📊 Hands-On</span>
+      </div>
+    </div>
+
+    <div class="tip-note">
+      <strong>💡 From Pressure Diagnostics Training</strong>
+      <p>Pressure readings tell you what's happening inside the AC system. Learn to interpret high and low side pressures to diagnose problems quickly and accurately.</p>
+    </div>
+
+    <div class="section-title">Understanding Pressure Basics</div>
+    <div class="section-desc">AC systems operate with two distinct pressure zones. The high side (discharge) carries hot, high-pressure refrigerant from the compressor to the condenser. The low side (suction) carries cold, low-pressure refrigerant from the evaporator back to the compressor. Normal pressures depend on ambient temperature and system design.</div>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="card-icon">🔴</div>
+        <div class="card-title">High Side Pressure</div>
+        <p>150-250 psi at 70-80°F ambient. Hot refrigerant leaving compressor. Pressure increases with ambient temperature. High pressure indicates condenser problems or overcharge.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔵</div>
+        <div class="card-title">Low Side Pressure</div>
+        <p>25-45 psi at 70-80°F ambient. Cold refrigerant entering compressor. Pressure decreases with ambient temperature. Low pressure indicates undercharge or restrictions.</p>
+      </div>
+    </div>
+
+    <div class="section-title">Normal Operating Pressures</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <div class="step-label">70°F Ambient Temperature</div>
+          <div class="step-body">
+            <strong style="color: var(--text-primary)">High Side: 150-180 psi | Low Side: 25-35 psi</strong><br>
+            Normal operation at moderate temperatures. Both pressures should be stable with compressor cycling. Superheat 8-12°F, subcooling 10-15°F.
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <div class="step-label">80°F Ambient Temperature</div>
+          <div class="step-body">
+            <strong style="color: var(--text-primary)">High Side: 180-220 psi | Low Side: 30-40 psi</strong><br>
+            Higher pressures due to increased ambient heat. System works harder to reject heat. Expect slightly higher pressures with same cooling performance.
+          </div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <div class="step-label">90°F Ambient Temperature</div>
+          <div class="step-body">
+            <strong style="color: var(--text-primary)">High Side: 220-250 psi | Low Side: 35-45 psi</strong><br>
+            Maximum normal operating pressures. Higher ambient reduces cooling efficiency. Pressures may approach high-pressure switch limits.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title">Pressure Reading Techniques</div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🎛️</div>
+        <div class="card-title">Gauge Set Connection</div>
+        <p>Connect high side (red) to discharge port, low side (blue) to suction port. Purge hoses of air before connecting. Verify valve positions before opening.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌡️</div>
+        <div class="card-title">Temperature Compensation</div>
+        <p>Always note ambient temperature when reading pressures. Use pressure-temperature charts to determine if readings are normal for conditions.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⏱️</div>
+        <div class="card-title">Stabilization Time</div>
+        <p>Allow system to run 5-10 minutes before taking readings. Watch for pressure stabilization and compressor cycling patterns.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <div class="card-title">Multiple Readings</div>
+        <p>Take several readings over time. Note pressure changes with compressor cycling, fan operation, and engine RPM variations.</p>
+      </div>
+    </div>
+
+    <div class="section-title">Abnormal Pressure Patterns</div>
+
+    <table>
+      <tr><th>Condition</th><th>High Side</th><th>Low Side</th><th>Likely Cause</th></tr>
+      <tr>
+        <td class="topic">Low Charge</td>
+        <td>Low (100-150 psi)</td>
+        <td>Very Low (10-25 psi)</td>
+        <td>Refrigerant leak, undercharge</td>
+      </tr>
+      <tr>
+        <td class="topic">Overcharge</td>
+        <td>High (250-300+ psi)</td>
+        <td>High (45-60+ psi)</td>
+        <td>Too much refrigerant, overcharged</td>
+      </tr>
+      <tr>
+        <td class="topic">Condenser Problem</td>
+        <td>Very High (300+ psi)</td>
+        <td>Slightly High (40-50 psi)</td>
+        <td>Airflow restriction, dirty condenser</td>
+      </tr>
+      <tr>
+        <td class="topic">Compressor Issue</td>
+        <td>Low (100-150 psi)</td>
+        <td>High (50-70+ psi)</td>
+        <td>Weak compressor, internal leak</td>
+      </tr>
+      <tr>
+        <td class="topic">Restriction</td>
+        <td>Low-Normal (150-180 psi)</td>
+        <td>Very Low (5-20 psi)</td>
+        <td>Blocked orifice/TXV, kinked line</td>
+      </tr>
+      <tr>
+        <td class="topic">Moisture in System</td>
+        <td>Normal-High (180-220 psi)</td>
+        <td>Fluctuating (20-45 psi)</td>
+        <td>Ice formation at expansion device</td>
+      </tr>
+    </table>
+
+    <div class="section-title">Diagnostic Pressure Analysis</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <div class="step-label">Compare to Ambient</div>
+          <div class="step-body">Check if pressures are appropriate for ambient temperature. Use PT chart or pressure calculator. High ambient = high pressures, low ambient = low pressures.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <div class="step-label">Look for Patterns</div>
+          <div class="step-body">Both high = overcharge or condenser issue. Both low = undercharge. High low/low high = compressor problem. Low low/normal high = restriction.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <div class="step-label">Check Stability</div>
+          <div class="step-body">Fluctuating pressures indicate moisture or cycling issues. Stable but wrong pressures indicate charge level or component problems.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <div class="step-label">Verify with Temperature</div>
+          <div class="step-body">Check superheat and subcooling. These measurements confirm what pressure readings indicate. Use both for accurate diagnosis.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title">Pressure Switch Considerations</div>
+
+    <div class="tip-note">
+      <strong>⚠️ Safety Switches</strong>
+      <p>Bobcat systems have pressure switches that protect the compressor. Low-pressure switch typically opens at 20-25 psi. High-pressure switch opens at 350-400 psi. These switches will cause compressor cycling if pressures exceed limits.</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🔴</div>
+        <div class="card-title">Low-Pressure Switch</div>
+        <p>Protects compressor from running with insufficient lubrication. Opens when pressure drops below 20-25 psi. Will cause rapid compressor cycling.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔴</div>
+        <div class="card-title">High-Pressure Switch</div>
+        <p>Protects system from overpressure damage. Opens when pressure exceeds 350-400 psi. Usually indicates condenser airflow problem.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <div class="card-title">Cycling Compressor</div>
+        <p>If compressor cycles rapidly, check pressure switch operation. Low charge is most common cause of low-pressure switch cycling.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">Electrical Issues</div>
+        <p>Don't confuse pressure switch operation with electrical problems. Verify pressures before replacing electrical components.</p>
+      </div>
+    </div>
+
+    <div class="section-title">Practical Exercise</div>
+
+    <div class="safety-note">
+      <strong>🎛️ Hands-On Practice</strong>
+      <p>Connect gauge set to a running machine. Practice reading pressures while varying engine speed and fan operation. Record readings and compare to normal ranges for ambient conditions.</p>
+    </div>
+
+    <div class="nav-buttons">
+      <a href="tools-recovery.html" class="btn btn-ghost">← Previous: Tools & Recovery</a>
+      <a href="diagnosis-process.html" class="btn btn-primary">Next: Diagnosis Process →</a>
+    </div>
+
+  </main>
+</div>
+
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
