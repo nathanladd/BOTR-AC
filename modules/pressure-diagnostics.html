@@ -129,7 +129,7 @@
           <div class="step-label">90°F Ambient Temperature</div>
           <div class="step-body">
             <strong style="color: var(--text-primary)">High Side: 220-250 psi | Low Side: 35-45 psi</strong><br>
-            Maximum normal operating pressures. Higher ambient reduces cooling efficiency. Pressures may approach high-pressure switch limits.
+            Maximum normal operating pressures. Higher ambient reduces cooling efficiency. Pressures may approach high-pressure switch limit (cuts out above 384 psi on high side).
           </div>
         </div>
       </div>
@@ -239,24 +239,32 @@
 
     <div class="tip-note">
       <strong>⚠️ Safety Switches</strong>
-      <p>Bobcat systems have pressure switches that protect the compressor. Low-pressure switch typically opens at 20-25 psi. High-pressure switch opens at 350-400 psi. These switches will cause compressor cycling if pressures exceed limits.</p>
+      <p>Bobcat systems have pressure switches that protect the compressor. Bobcat high-side pressure switch cuts out below 28 psi and above 384 psi. These switches will cause compressor cycling if pressures exceed limits.</p>
+    </div>
+
+    <div class="tip-note">
+      <strong>🔄 Normal Compressor Cycling Times</strong>
+      <p><strong>Normal Weather (77–95°F):</strong> The AC compressor may cycle on and off every 5 to 45 seconds.<br>
+      <strong>High Load</strong> (heavy traffic, sitting in sun): The compressor may run almost continuously, engaging for 60 seconds or longer with only very short off cycles of 10 to 20 seconds.<br>
+      <strong>Low Load</strong> (cabin is cool, warmer temperature setting): The compressor may run for a minute or two and then remain off for several minutes.<br><br>
+      These cycle times are general indicators and may vary based on the specific machine and its condition. If cycle times are significantly different from these averages, it may indicate a problem with the AC system that requires attention.</p>
     </div>
 
     <div class="card-grid">
       <div class="card">
         <div class="card-icon">🔴</div>
         <div class="card-title">Low-Pressure Switch</div>
-        <p>Protects compressor from running with insufficient lubrication. Opens when pressure drops below 20-25 psi. Will cause rapid compressor cycling.</p>
+        <p>Protects compressor from running with insufficient lubrication. Cuts out when high-side pressure drops below 28 psi. Will cause rapid compressor cycling.</p>
       </div>
       <div class="card">
         <div class="card-icon">🔴</div>
         <div class="card-title">High-Pressure Switch</div>
-        <p>Protects system from overpressure damage. Opens when pressure exceeds 350-400 psi. Usually indicates condenser airflow problem.</p>
+        <p>Protects system from overpressure damage. Cuts out when high-side pressure exceeds 384 psi. Usually indicates condenser airflow problem.</p>
       </div>
       <div class="card">
         <div class="card-icon">🔄</div>
         <div class="card-title">Cycling Compressor</div>
-        <p>If compressor cycles rapidly, check pressure switch operation. Low charge is most common cause of low-pressure switch cycling.</p>
+        <p>If compressor cycles more rapidly than normal (every 5–45 seconds in 77–95°F weather), check pressure switch operation. Low charge is most common cause of low-pressure switch cycling.</p>
       </div>
       <div class="card">
         <div class="card-icon">⚡</div>
