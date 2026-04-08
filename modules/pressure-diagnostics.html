@@ -160,47 +160,123 @@
       </div>
     </div>
 
-    <div class="section-title">Abnormal Pressure Patterns</div>
+    <div class="section-title">Pressure Diagnostic Chart</div>
+    <div class="section-desc">This diagnostic chart shows how different conditions affect the entire system. Use the symptoms listed to help locate the source of a problem and systematically examine and repair it.</div>
 
-    <table>
-      <tr><th>Condition</th><th>High Side</th><th>Low Side</th><th>Likely Cause</th></tr>
-      <tr>
-        <td class="topic">Low Charge</td>
-        <td>Low (100-150 psi)</td>
-        <td>Very Low (10-25 psi)</td>
-        <td>Refrigerant leak, undercharge</td>
-      </tr>
-      <tr>
-        <td class="topic">Overcharge</td>
-        <td>High (250-300+ psi)</td>
-        <td>High (45-60+ psi)</td>
-        <td>Too much refrigerant, overcharged</td>
-      </tr>
-      <tr>
-        <td class="topic">Condenser Problem</td>
-        <td>Very High (300+ psi)</td>
-        <td>Slightly High (40-50 psi)</td>
-        <td>Airflow restriction, dirty condenser</td>
-      </tr>
-      <tr>
-        <td class="topic">Compressor Issue</td>
-        <td>Low (100-150 psi)</td>
-        <td>High (50-70+ psi)</td>
-        <td>Weak compressor, internal leak</td>
-      </tr>
-      <tr>
-        <td class="topic">Restriction</td>
-        <td>Low-Normal (150-180 psi)</td>
-        <td>Very Low (5-20 psi)</td>
-        <td>Blocked orifice/TXV, kinked line</td>
-      </tr>
-      <tr>
-        <td class="topic">Moisture in System</td>
-        <td>Normal-High (180-220 psi)</td>
-        <td>Fluctuating (20-45 psi)</td>
-        <td>Ice formation at expansion device</td>
-      </tr>
-    </table>
+    <div class="table-wrapper" style="overflow-x: auto; margin: 20px 0;">
+      <table style="min-width: 900px; font-size: 14px;">
+        <tr>
+          <th style="background: var(--orange); color: white;">Condition</th>
+          <th style="background: var(--orange); color: white;">Low Side</th>
+          <th style="background: var(--orange); color: white;">High Side</th>
+          <th style="background: var(--orange); color: white;">Sight Glass</th>
+          <th style="background: var(--orange); color: white;">Suction Line</th>
+          <th style="background: var(--orange); color: white;">Receiver/Drier</th>
+          <th style="background: var(--orange); color: white;">Liquid Line</th>
+          <th style="background: var(--orange); color: white;">Discharge Line</th>
+          <th style="background: var(--orange); color: white;">Discharge Air</th>
+        </tr>
+        <tr>
+          <td class="topic">Lack of Refrigerant</td>
+          <td>Very low</td>
+          <td>Very low</td>
+          <td>Clear</td>
+          <td>Slightly cool</td>
+          <td>Slightly warm</td>
+          <td>Slightly warm</td>
+          <td>Slightly warm</td>
+          <td>Warm</td>
+        </tr>
+        <tr>
+          <td class="topic">Loss of Refrigerant</td>
+          <td>Low</td>
+          <td>Low</td>
+          <td>Bubbles</td>
+          <td>Cool</td>
+          <td>Warm to hot</td>
+          <td>Warm</td>
+          <td>Warm to hot</td>
+          <td>Slightly cool</td>
+        </tr>
+        <tr>
+          <td class="topic">Compressor Failure</td>
+          <td>High</td>
+          <td>Low</td>
+          <td>Clear</td>
+          <td>Cool</td>
+          <td>Warm</td>
+          <td>Warm</td>
+          <td>Warm</td>
+          <td>Slightly cool</td>
+        </tr>
+        <tr>
+          <td class="topic">Condenser Malfunction</td>
+          <td>High</td>
+          <td>High</td>
+          <td>Clear to occasional bubbles</td>
+          <td>Slightly cool to warm</td>
+          <td>Hot</td>
+          <td>Hot</td>
+          <td>Hot</td>
+          <td>Warm</td>
+        </tr>
+        <tr>
+          <td class="topic">Expansion Valve Stuck Open</td>
+          <td>High</td>
+          <td>High or Normal</td>
+          <td>Clear</td>
+          <td>Cold — sweating or frosting heavily</td>
+          <td>Warm</td>
+          <td>Warm</td>
+          <td>Hot</td>
+          <td>Slightly cool</td>
+        </tr>
+        <tr>
+          <td class="topic">Expansion Valve Stuck Closed</td>
+          <td>Low</td>
+          <td>Low</td>
+          <td>Clear</td>
+          <td>Cold — sweating or frosting heavily at valve inlet</td>
+          <td>Warm</td>
+          <td>Warm</td>
+          <td>Hot</td>
+          <td>Slightly cool</td>
+        </tr>
+        <tr>
+          <td class="topic">Restriction Between Condenser and Expansion Valve</td>
+          <td>Low</td>
+          <td>Low</td>
+          <td>Clear</td>
+          <td>Cool</td>
+          <td>Cool or sweating or frosting</td>
+          <td>Cool or sweating or frosting</td>
+          <td>Hot to point of restriction</td>
+          <td>Slightly cool</td>
+        </tr>
+        <tr>
+          <td class="topic">Restriction Between Compressor and Condenser</td>
+          <td>High</td>
+          <td>High, normal, or low</td>
+          <td>Clear</td>
+          <td>Slightly cool to warm</td>
+          <td>Warm or hot</td>
+          <td>Warm or hot</td>
+          <td>Hot</td>
+          <td>Warm</td>
+        </tr>
+        <tr style="background: rgba(76, 175, 80, 0.1);">
+          <td class="topic">Normal</td>
+          <td>Normal</td>
+          <td>Normal</td>
+          <td>Clear</td>
+          <td>Cool, possible sweat</td>
+          <td>Warm</td>
+          <td>Warm</td>
+          <td>Hot</td>
+          <td>Cool</td>
+        </tr>
+      </table>
+    </div>
 
     <div class="section-title">Diagnostic Pressure Analysis</div>
 
